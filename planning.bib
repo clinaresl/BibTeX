@@ -23,6 +23,8 @@
 		  Automated Planning and Scheduling (ICAPS-05)} }
 @STRING{icaps07	= {Proceedings of the Seventeenth International Conference on
 		  Automated Planning and Scheduling (ICAPS-07)} }
+@STRING{icaps09	= {Proceedings of the Nineteenth International Conference on
+		  Automated Planning and Scheduling (ICAPS-07)} }
 @STRING{icaps10	= {Proceedings of the Twentieth International Conference on
 		  Automated Planning and Scheduling (ICAPS-10)} }
 @STRING{icaps11	= {Proceedings of the Twenty-First International Conference
@@ -33,6 +35,8 @@
 		  Conference on Artificial Intelligence (IJCAI-05)} }
 @STRING{ijcai07	= {Proceedings of the Twentieth International Joint
 		  Conference on Artificial Intelligence (IJCAI-07)} }
+@STRING{ijcai09	= {Proceedings of the Twenty-First International Joint
+		  Conference on Artificial Intelligence (IJCAI-09)} }
 @STRING{ijcai93	= {Proceedings of the Thirteenth International Joint
 		  Conference on Artificial Intelligence (IJCAI-95)} }
 @STRING{ijcai95	= {Proceedings of the Fourteenth International Joint
@@ -68,6 +72,17 @@
   year		= "2010"
 }
 
+@InProceedings{	  albore.a.palacios.h.ea:translation-based,
+  author	= {Alexandre Albore and H\'ector Palacios and H\'ector
+		  Geffner},
+  title		= {A Translation-based Approach to Contingent Planning},
+  booktitle	= ijcai09,
+  pages		= {1623--1628},
+  year		= 2009,
+  address	= {Pasadena, United States},
+  month		= sep
+}
+
 @Article{	  bacchus.f.kabanza.f:using,
   author	= {Fahiem Bacchus and Froduald Kabanza},
   title		= {Using Temporal Logics to Express Search Control Knowledge
@@ -76,6 +91,16 @@
   year		= 2000,
   volume	= 116,
   pages		= {123-191}
+}
+
+@TechReport{	  bedrax-weiss.t.mcgann.c.ea:europa2,
+  author	= {Tania Bedrax-Weiss and Conor McGann and Andrew Bachmann
+		  and Will Edgington and Michael Iatauro},
+  title		= {{EUROPA2}: User and contributor guide},
+  institution	= {NASA AMES RESEARCH CENTER},
+  year		= 2005,
+  address	= {Moffett Field (California), United States},
+  month		= feb
 }
 
 @Article{	  blum.al.furst.ml:fast,
@@ -158,7 +183,7 @@
   booktitle	= icaps07,
   pages		= {89--96},
   year		= {2007},
-  address	= {Providence Rhode Island, United States},
+  address	= {Providence (Rhode Island), United States},
   month		= {sep}
 }
 
@@ -169,7 +194,7 @@
   booktitle	= {icaps07},
   pages		= {105--112},
   year		= 2007,
-  address	= {Providence Rhode Island, United States},
+  address	= {Providence (Rhode Island), United States},
   month		= sep
 }
 
@@ -359,7 +384,7 @@
   booktitle	= icaps07,
   pages		= {176--183},
   year		= 2007,
-  address	= {Providence, Rhode Island, United States},
+  address	= {Providence (Rhode Island), United States},
   month		= sep
 }
 
@@ -393,6 +418,17 @@
   pages		= {507--541}
 }
 
+@Article{	  hoffmann.j.gomes.c.ea:structure,
+  author	= {J\"org Hoffmann and Carla Gomes and Bart Selman},
+  title		= {Structure and Problem Hardness: Goal Asymmetry and DPLL
+		  Proofs in {SAT}-Based Planning},
+  journal	= {Logical Methods in Computer Science},
+  year		= 2007,
+  volume	= 3,
+  number	= {1:6},
+  pages		= {1--41}
+}
+
 @Article{	  hoffmann.j.nebel.b:ff,
   author	= {J\"org Hoffmann and Bernhard Nebel},
   title		= {The {FF} Planning System: Fast Plan Generation Through
@@ -405,7 +441,7 @@
 
 @Article{	  hoffmann.j:analyzing,
   title		= {Analyzing Search Topology Without Running Any Search: On
-		  the Connection Between Causal Graphs and h+},
+		  the Connection Between Causal Graphs and $h^+$},
   author	= {Joerg Hoffmann},
   pages		= {155--229},
   journal	= jair,
@@ -550,6 +586,17 @@
   pages		= {73--123}
 }
 
+@InProceedings{	  palacios.h.geffner.h:from,
+  author	= {H\'ector Palacios and H\'ector Geffner},
+  title		= {From Conformant into Classical Planning: Efficient
+		  Translations that may be Complete Too},
+  booktitle	= icaps07,
+  pages		= {264--271},
+  year		= 2007,
+  address	= {Providence (Rhode Island), United States},
+  month		= sep
+}
+
 @InProceedings{	  penner.rr.steinmetz.es:automated,
   author	= {R.~R.~Penner and E.~S.~Steinmetz},
   title		= {Automated support for human mixed initiative decision and
@@ -653,14 +700,37 @@
   month		= {aug}
 }
 
+@InProceedings{	  sulewski.d.edelkamp.s.ea:exploiting,
+  author	= {Damian Sulewski and Stefan Edelkamp and Peter Kissmann},
+  title		= {Exploiting the Computational Power of the Graphics Card:
+		  Optimal State Space Planning on the {GPU}},
+  booktitle	= icaps11,
+  year		= 2011,
+  pages		= {242--249},
+  address	= {Freiburg, Germany},
+  month		= jun
+}
+
 @InProceedings{	  vidal.v.bordeaux.l.ea:parallel,
   author	= {Vincent Vidal and Lucas Bordeaux and Youssef Hamadi},
   title		= {Parallel, Dynamic K-Best-First Search},
   booktitle	= socs10,
   pages		= {100-107},
   year		= 2010,
-  address	= {Atlanta, USA},
+  address	= {Atlanta, United States},
   month		= jul
+}
+
+@Article{	  vidal.v.geffner.h:branching,
+  author	= {Vincent Vidal and H\'ector Geffner},
+  title		= {Branching and Pruning: An Optimal Temporal {POCL} Planner
+		  based on Constraint Programming},
+  journal	= ai,
+  year		= 2006,
+  volume	= 3,
+  number	= 170,
+  pages		= {298--335},
+  month		= mar
 }
 
 @InProceedings{	  vidal.v:lookahead,
