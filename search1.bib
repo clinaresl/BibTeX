@@ -1,38 +1,54 @@
+@STRING{aaai00	= {Proceedings of the Seventeenth National Conference on
+		  Artificial Intelligence (AAAI 2000)} }
 @STRING{aaai04	= {Proceedings of the Nineteenth National Conference on
-		  Artificial Intelligence (AAAI-04)} }
+		  Artificial Intelligence (AAAI 2004)} }
 @STRING{aaai05	= {Proceedings of the Twentieth National Conference on
-		  Artificial Intelligence (AAAI-05)} }
+		  Artificial Intelligence (AAAI 2005)} }
 @STRING{aaai06	= {Proceedings of the Twenty-First National Conference on
-		  Artificial Intelligence (AAAI-06)} }
+		  Artificial Intelligence (AAAI 2006)} }
 @STRING{aaai07	= {Proceedings of the Twenty-Second Conference on Artificial
-		  Intelligence (AAAI-07)} }
+		  Intelligence (AAAI 2007)} }
 @STRING{aaai08	= {Proceedings of the Twenty-Third Conference on Artificial
-		  Intelligence (AAAI-08)} }
+		  Intelligence (AAAI 2008)} }
 @STRING{aaai96	= {Proceedings of the Thirteenth National Conference on
-		  Artificial Intelligence (AAAI-96)} }
+		  Artificial Intelligence (AAAI 1996)} }
 @STRING{aaai97	= {Proceedings of the Fourteenth National Conference on
-		  Artificial Intelligence (AAAI-97)} }
+		  Artificial Intelligence (AAAI 1997)} }
 @STRING{aaai98	= {Proceedings of the Fifteenth National Conference on
-		  Artificial Intelligence (AAAI-98)} }
+		  Artificial Intelligence (AAAI 1998)} }
 @STRING{ai	= {Artificial Intelligence} }
 @STRING{icaps04	= {Proceedings of the Fourteenth International Conference on
-		  Automated Planning and Scheduling (ICAPS-04)} }
+		  Automated Planning and Scheduling (ICAPS 2004)} }
 @STRING{icaps05	= {Proceedings of the Fifteenth International Conference on
-		  Automated Planning and Scheduling (ICAPS-05)} }
+		  Automated Planning and Scheduling (ICAPS 2005)} }
 @STRING{icaps07	= {Proceedings of the Seventeenth International Conference on
-		  Automated Planning and Scheduling (ICAPS-07)} }
+		  Automated Planning and Scheduling (ICAPS 2007)} }
 @STRING{ijcai05	= {Proceedings of the Nineteenth International Joint
-		  Conference on Artificial Intelligence (IJCAI-05)} }
+		  Conference on Artificial Intelligence (IJCAI 2005)} }
 @STRING{ijcai07	= {Proceedings of the Twentieth International Joint
-		  Conference on Artificial Intelligence (IJCAI-07)} }
+		  Conference on Artificial Intelligence (IJCAI 2007)} }
 @STRING{ijcai93	= {Proceedings of the Thirteenth International Joint
-		  Conference on Artificial Intelligence (IJCAI-95)} }
+		  Conference on Artificial Intelligence (IJCAI 1993)} }
 @STRING{ijcai95	= {Proceedings of the Fourteenth International Joint
-		  Conference on Artificial Intelligence (IJCAI-95)} }
+		  Conference on Artificial Intelligence (IJCAI 1995)} }
 @STRING{ijcai97	= {Proceedings of the Fifteenth International Joint
-		  Conference on Artificial Intelligence (IJCAI-97)} }
+		  Conference on Artificial Intelligence (IJCAI 1997)} }
 @STRING{jacm	= {Journal of the ACM} }
 @STRING{jair	= {Journal of Artificial Intelligence Research} }
+@STRING{socs09	= {Proceedings of the Second Annual Symposium on
+		  Combinatorial Search (SoCS 2009)} }
+@STRING{socs10	= {Proceedings of the Third Annual Symposium on Combinatorial
+		  Search (SoCS 2010)} }
+@STRING{socs14	= {Proceedings of the Seventh Annual Symposium on
+		  Combinatorial Search (SoCS 2014)} }
+
+@Unpublished{	  anonymous:position,
+  author	= {Anonymous},
+  title		= {Position Paper: The Collapse Macro in Best-first Search
+		  Algorithms and an Iterative Variant of {RBFS}},
+  note		= {Submitted to SoCS 2015},
+  year          = {2015},
+}
 
 @InProceedings{	  ansotegui.c.bonet.ml.ea:measuring,
   author	= {Carlos Ans\'otegui and Mar\'ia Luisa Bonet and Jordi Levy
@@ -707,19 +723,10 @@
   address	= {Montreal, Canada}
 }
 
-@Unpublished{	  helmert.m.haslum.p.ea:merge-and-shrink,
-  author	= {Malte Helmert and Patrik Haslum and J\"org Hoffmann and
-		  Raz Nissim},
-  title		= {Merge-and-Shrink Abstraction: A Method for Generating
-		  Lower Bounds in Factored State Spaces},
-  note		= {To appear in Journal of the ACM},
-  year		= 2014
-}
-
 @InProceedings{	  helmert.m:landmark,
   author	= {Malte Helmert},
   title		= {Landmark Heuristics for the Pancake Problem},
-  booktitle	= {Symposium on Combinatorial Search (SOCS-10)},
+  booktitle	= socs10,
   pages		= {109--110},
   year		= {2010},
   address	= {Atlanta, Georgia, United States},
@@ -913,6 +920,17 @@
   year		= 1983,
   volume	= 220,
   pages		= {621--630}
+}
+
+@InProceedings{	  korf.r.zhang.w:divide-and-conquer,
+  author	= {Richard Korf and Weixiong Zhang},
+  title		= {Divide-and-conquer frontier search applied to optimal
+		  sequence alignment},
+  booktitle	= aaai00,
+  year		= 2000,
+  pages		= {910--916},
+  month		= aug,
+  address	= {Austin, Texas}
 }
 
 @Article{	  korf.re.felner.a:disjoint,
@@ -1541,8 +1559,7 @@
   author	= {Tim Schmidt and Lukas Kuhn and Bob Price and Johan de
 		  Kleer and Rong Zhou},
   title		= {A Depth-First Approach to Target-Value Search},
-  booktitle	= {Symposium on Combinatorial Search (SOCS-09)},
-  optpages	= {},
+  booktitle	= socs09,
   year		= 2009
 }
 
@@ -1565,6 +1582,18 @@
   year		= 1994,
   volume	= 2,
   pages		= "1323--1328"
+}
+
+@InProceedings{	  stern.r.kiesel.s.ea:max,
+  author	= {Roni Stern and Scott Kiesel and Rami Puzis and Ariel
+		  Felner and Wheeler Ruml},
+  title		= {Max Is More than Min: Solving Maximization Problems with
+		  Heuristic Search},
+  booktitle	= socs14,
+  year		= 2014,
+  pages		= {148--156},
+  month		= aug,
+  address	= {Prague (Czech Republic)}
 }
 
 @Article{	  sturtevant.n:benchmarks,
@@ -1771,6 +1800,16 @@
   year		= 1995,
   volume	= 79,
   pages		= "241--292"
+}
+
+@Article{	  zhang.w.korf.re:study,
+  author	= {Weixiong Zhang and Richard E.~Korf},
+  title		= {A study of complexity transitions on the asymmetric
+		  traveling salesman problem},
+  journal	= ai,
+  year		= 1996,
+  volume	= 81,
+  pages		= {223--239}
 }
 
 @InProceedings{	  zhang.w:complete,
